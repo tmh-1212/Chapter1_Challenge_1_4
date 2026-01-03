@@ -1,5 +1,5 @@
 📘 Challenge 1.4: The Robust File Config Reader
-🔍 Description
+ Description
 
 This Java program reads a configuration file named config.txt which must contain two lines:
 
@@ -21,7 +21,7 @@ I/O errors
 
 All exceptions are caught, and friendly error messages are displayed to the user. A finally block ensures that a message is printed regardless of success or failure.
 
-💡 Example Input
+ Example Input
 
 Contents of config.txt:
 
@@ -32,7 +32,7 @@ C:\nonexistent_folder\nonexistent_file.txt
 Error: Config version too old!
 Config read attempt finished.
 
-💭 Reflection
+ Reflection
 
 What I learned:
 
@@ -52,17 +52,17 @@ Making sure that all edge cases (missing file, bad format, etc.) are handled gra
 
 Proper use of the finally block to ensure cleanup or final messages always occur.
 
-📁 Repo Contents
+ Repo Contents
 Chapter1_Challenge_1_4/
 ├── Chapter1_Challenge_1_4.java
 ├── config.txt
 └── README.md
 
-🚀 How to Run
+ How to Run
 
 Clone the repo:
 
-git clone https://github.com/your-username/Chapter1_Challenge_1_4.git
+git clone https://github.com/tmh-1212/Chapter1_Challenge_1_4.git
 cd Chapter1_Challenge_1_4
 
 
